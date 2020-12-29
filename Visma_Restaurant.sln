@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visma_Restaurant", "Visma_Shop\Visma_Restaurant.csproj", "{9C778400-7533-4B8E-AB0F-3D36F0942083}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C778400-7533-4B8E-AB0F-3D36F0942083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C778400-7533-4B8E-AB0F-3D36F0942083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C778400-7533-4B8E-AB0F-3D36F0942083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C778400-7533-4B8E-AB0F-3D36F0942083}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E486B36-0F3D-4316-B0B5-BD149B864B63}
+	EndGlobalSection
+EndGlobal
