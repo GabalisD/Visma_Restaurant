@@ -17,11 +17,13 @@ namespace Visma_Restaurant
             StockContainer container = new StockContainer();
             Menu menu = new Menu();
             OrderList orderList = new OrderList();
+            string stockFilePath ="C:/Users/Domantas/source/repos/Visma/Visma_Restaurant/Stock.txt";
+            string menuFilePath ="C:/Users/Domantas/source/repos/Visma/Visma_Restaurant/Menu.txt";
+            string orderFilePath ="C:/Users/Domantas/source/repos/Visma/Visma_Restaurant/Orders.txt";
 
-
-            Services.File.updateStockUsingFileData(container, Services.File.readFile("Stock.txt"));
-            Services.File.updateMenuUsingFileData(menu, Services.File.readFile("Menu.txt"), container);
-            Services.File.updateOrdersUsingFileData(orderList, Services.File.readFile("Orders.txt"), menu);
+            Services.File.updateStockUsingFileData(container, Services.File.readFile(stockFilePath));
+            Services.File.updateMenuUsingFileData(menu, Services.File.readFile(menuFilePath), container);
+            Services.File.updateOrdersUsingFileData(orderList, Services.File.readFile(orderFilePath), menu);
 
 
             while (true)

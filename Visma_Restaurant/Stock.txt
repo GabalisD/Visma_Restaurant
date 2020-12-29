@@ -1,0 +1,5 @@
+4,potato,20,kg,0.3
+5,tomato,10,kg,0.3
+2,lentils,10,kg,0.5
+1,toast,10,unit,1
+3,apple,10,unit,0.5
